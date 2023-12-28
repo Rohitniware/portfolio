@@ -13,13 +13,14 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
             <div class="header-text">
                 <p>UI/UX Designer</p>
                 <h1>Hi, I'm Rohit Niware From India</h1>
@@ -130,20 +131,25 @@
                     <a href="https://www.facebook.com/rohithni/"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.linkedin.com/in/rohit-niware-b1a733192/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://twitter.com/niware218"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="images/rohit cv.pdf" download class="btn btn2" >Download CV</a>          
+
                 </div>
             </div>
-            <div class="contact-right"></div>
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
-
-            </form>
-        </div>
-    </div>
-</div>
-
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+    
+                </form>
+            </div>
+        </div>    
+    </div> 
+    <div class="copyright">
+        <P>❤️Kindly click only once on the "SUBMIT" button❤️</P>
+        <p>Rohit Niware</p>
+    </div>   
 
 <script>
     
@@ -164,6 +170,7 @@
 
 
 </script>
+
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyihpfE4nacKpuodp-kePVgQsiGFGUM_V3eAkutZBJ8PUDV1p3ADHl0Y6-yLRrZbgEqBA/exec'
     const form = document.forms['submit-to-google-sheet']

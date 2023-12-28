@@ -176,7 +176,7 @@ nav ul li a:hover::after{
     flex-basis: 30%;
 }
 .contact-right{
-    flex-basis: 70%;
+    flex-basis: 60%;
 }
 .contact-left p{
     margin-top: 30px;
@@ -215,7 +215,7 @@ form input,form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-form .btn2{
+form.btn.btn2{
     background: #ff004f;
     border-radius: 10px;
     padding: 14px 60px;
@@ -223,3 +223,22 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+    color: black;
+    padding: 14px 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
